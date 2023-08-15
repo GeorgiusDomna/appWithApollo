@@ -1,4 +1,6 @@
-const apiKey = 'd0fb83e2813e41a78f3191552232705';
+import 'dotenv/config';
+
+const apiKey = process.env.API_KEY;
 
 export const resolvers = {
     Query: {
